@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=swap_vert" />
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="container">
+        <div class="from">
+            <p id="Amount">Amount</p>
+            <div class="image-input">
+                <div class="SelectFromCountry">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                    <select name="fromcountry" id="FromCountry"></select>
+                </div>
+                <input id="inputtext" type="text" placeholder="Enter Amount" value="1">
+            </div>
+        </div>
+        <hr>
+        <div class="to">
+            <p id="ConvertedAmount">Converted Amount</p>
+            <div class="image-output">
+                <div class="SelectToCountry">
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                    <select name="tocountry" id="ToCountry"></select>
+                </div>
+                <div class="output">
+                    <input id="outputtext" type="text" disabled>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="button">
+        Get Exchange Rate
+    </button>
+
+    <div class="ResultMessage">
+        <p class="message">Indicative Exchange Rate</p>
+        <p class="value hide">1 USD = 80 INR</p> 
+    </div>
+    
+    <script src="country.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

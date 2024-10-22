@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c4d7ff;
+}
+
+h1 {
+    color: #001f3f;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;  
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    width: 50%;
+    height: 15rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top: 4rem;
+}
+
+.image-input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-output {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#inputtext {
+    height: fit-content;
+    margin-top: 4%;
+    border: none;
+    background-color: rgb(196, 188, 188);
+    padding: 0.3rem;
+}
+
+#outputtext {
+    height: fit-content;
+    border: none;
+    background-color: rgb(196, 188, 188);
+    padding: 0.3rem;
+}
+
+.output {
+    margin-top: 4%;
+    /* background-color: red; */
+}
+
+.SelectToCountry {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.SelectFromCountry {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#FromCountry {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    height: 30%;
+    margin-left: 1rem;
+}
+
+#ToCountry {
+    margin-top: 25%;
+    margin-bottom: 25%;
+    height: 30%;
+    margin-left: 1rem;
+}
+
+#Amount {
+    margin-left: 5rem;
+    /* margin-top: 1rem;     */
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* padding-top: 1rem; */
+}
+
+#ConvertedAmount {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ResultMessage {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.material-symbols-outlined {
+    background-color: #001f3f;
+    color: white;
+    border-radius: 50%;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-left: 44%;
+    padding: 0.75rem;
+    border: none;
+    color: white;
+    background-color: #001f3f;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.85;
+}
+
+.hide{
+    display: none;
+}
