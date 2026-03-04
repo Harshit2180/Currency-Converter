@@ -42,7 +42,7 @@ btn.addEventListener("click", async () => {
         amount.value = "1";
     }
 
-    const url = `${BASE_URL}/${ToCountry.value}_${FromCountry.value}.json`        
+    const url = `${BASE_URL}/${FromCountry.value}_${ToCountry.value}.json`        
     let response = await fetch(url);
     let data = await response.json();
     let exch_rate = data.rate;
